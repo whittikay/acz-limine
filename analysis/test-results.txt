@@ -1,0 +1,13 @@
+test_safety_and_case (test_pac_extract.PacTests.test_safety_and_case) ... ok
+test_selection (test_pac_extract.PacTests.test_selection) ... ok
+test_black_is_neutral_for_additive_layers (test_reference.ReferenceTests.test_black_is_neutral_for_additive_layers) ... ok
+test_known_blend_fit (test_reference.ReferenceTests.test_known_blend_fit) ... ok
+test_sampler_identity_and_output_bounds (test_reference.ReferenceTests.test_sampler_identity_and_output_bounds) ... ok
+test_bounds_and_unsupported (test_tim2.Tim2Tests.test_bounds_and_unsupported) ... ok
+test_csm1_permutation (test_tim2.Tim2Tests.test_csm1_permutation) ... ok
+test_low_nibble_first_and_raw_alpha (test_tim2.Tim2Tests.test_low_nibble_first_and_raw_alpha) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.011s
+
+OK

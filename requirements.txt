@@ -1,0 +1,3 @@
+# Versions used for the verified extraction and wallpaper outputs.
+numpy==2.5.4
+Pillow==13.0.0

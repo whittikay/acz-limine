@@ -1,0 +1,85 @@
+{
+  "reference": "example from pcsx2/Screenshot from 2026-11-04 21-24-20.png",
+  "reference_dimensions": [
+    1871,
+    1423
+  ],
+  "reference_crop": [
+    0,
+    4,
+    1871,
+    1423
+  ],
+  "native_comparison_size": [
+    512,
+    448
+  ],
+  "sources": [
+    "1239_00163d60",
+    "1239_000f2940",
+    "1239_0012ada0"
+  ],
+  "model": "base_gain * red_grid + camera_gain * blue_image + light_gain * particle_image (RGB additive)",
+  "base_gain": 0.989859586392704,
+  "camera_gain": 0.0737013151990527,
+  "light_gain": 0.7427142843549012,
+  "fit_filter_radius": 0.65,
+  "fit_source_x_scale": 0.99,
+  "fit_source_sample_shift": [
+    -0.5,
+    -0.5
+  ],
+  "light_fit_filter_radius": 0.65,
+  "light_fit_source_x_scale": 0.99,
+  "light_fit_sample_shift": [
+    -0.5,
+    0
+  ],
+  "ui_free_pixels": 84286,
+  "background_fit_mae": 0.5967137544335895,
+  "background_fit_median_abs_error": 0.4954200172888683,
+  "particle_fit_mae": 2.1001371740569854,
+  "spot_measurements": [
+    {
+      "source_xy": [
+        82,
+        323
+      ],
+      "gain": 0.7065541318994761,
+      "mae": 3.7960184777097763
+    },
+    {
+      "source_xy": [
+        264,
+        123
+      ],
+      "gain": 0.7443354966579351,
+      "mae": 3.368250106984112
+    },
+    {
+      "source_xy": [
+        328,
+        157
+      ],
+      "gain": 0.7074359336328854,
+      "mae": 2.664132829153066
+    },
+    {
+      "source_xy": [
+        389,
+        169
+      ],
+      "gain": 0.7353768664609769,
+      "mae": 2.222053674699582
+    },
+    {
+      "source_xy": [
+        475,
+        216
+      ],
+      "gain": 0.8401738831221194,
+      "mae": 6.152953709525875
+    }
+  ],
+  "caveat": "Blend weights and subpixel sampling are screenshot estimates, not decoded runtime parameters. No screenshot pixels are used in recovered artwork."
+}

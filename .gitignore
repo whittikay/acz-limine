@@ -1,0 +1,41 @@
+# Locally supplied game archives and disc images: never upload.
+*.pac
+*.PAC
+*.tbl
+*.TBL
+*.iso
+*.ISO
+/DATA/
+
+# Bulk extraction stays local. Retain only the nine documented source textures
+# used by the wallpaper/reconstruction scripts and their diagnostic exports.
+/assets/*
+!/assets/tim2/
+/assets/tim2/*
+!/assets/tim2/1239_00163d60*
+!/assets/tim2/1239_000f2940*
+!/assets/tim2/1239_0012ada0*
+!/assets/tim2/1238_000869e0*
+!/assets/tim2/1238_00032800*
+!/assets/tim2/1238_0004e8a0*
+!/assets/tim2/1238_0006a940*
+!/assets/tim2/1238_00029b00*
+!/assets/tim2/1238_000a2a80*
+
+# Python and agent runtime artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.pi/
+
+# Credentials and machine-local settings.
+.env
+.env.*
+!.env.example
+!.env.template
+.secrets/
+*.key
+*.pem
+credentials.json

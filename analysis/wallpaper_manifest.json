@@ -1,0 +1,150 @@
+[
+  {
+    "path": "wallpapers/acz-main-menu-base-3840x2160.png",
+    "source": "1239_00163d60",
+    "description": "MainSelect background underlay (not the full animated scene)",
+    "source_entry": 1239,
+    "source_relative_offset": 1457504,
+    "source_pac_offset": 999435616,
+    "source_tm2_sha256": "30758f62bcb4d69375e14aa930a48e59251427a21b1f7bb0512af3cf852e6dc9",
+    "native_size": [
+      512,
+      448
+    ],
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "prefilter_radius": 0.65,
+    "resize_before_crop": [
+      3840,
+      2880
+    ],
+    "crop_box": [
+      0,
+      360,
+      3840,
+      2520
+    ],
+    "equivalent_source_crop": [
+      0,
+      56,
+      512,
+      392
+    ],
+    "minimum_white_text_contrast": 10.882445543598136,
+    "sha256": "c78c68a8c83aa4363d0871f7ac7e85d144762b3dfd9b3964c355740c13ed6caf"
+  },
+  {
+    "path": "wallpapers/acz-main-menu-base-3840x2160-unfiltered.png",
+    "source": "1239_00163d60",
+    "description": "MainSelect background underlay (not the full animated scene)",
+    "source_entry": 1239,
+    "source_relative_offset": 1457504,
+    "source_pac_offset": 999435616,
+    "source_tm2_sha256": "30758f62bcb4d69375e14aa930a48e59251427a21b1f7bb0512af3cf852e6dc9",
+    "native_size": [
+      512,
+      448
+    ],
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "prefilter_radius": 0.0,
+    "resize_before_crop": [
+      3840,
+      2880
+    ],
+    "crop_box": [
+      0,
+      360,
+      3840,
+      2520
+    ],
+    "equivalent_source_crop": [
+      0,
+      56,
+      512,
+      392
+    ],
+    "minimum_white_text_contrast": 10.803632754460846,
+    "sha256": "821a60a0ad1beef003b5fd48f24f6c41d811708dee1dd2511778fe3818ae5377"
+  },
+  {
+    "path": "wallpapers/acz-title-red-clouds-3840x2160.png",
+    "source": "1238_000869e0",
+    "description": "Title-screen red clouds underlay (not the selection-menu scene)",
+    "source_entry": 1238,
+    "source_relative_offset": 551392,
+    "source_pac_offset": 996809184,
+    "source_tm2_sha256": "7a25e58fbbd920a45ec3d08524453b8d80628b734d59fa3a66b9908d9cd46156",
+    "native_size": [
+      512,
+      448
+    ],
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "prefilter_radius": 0.65,
+    "resize_before_crop": [
+      3840,
+      2880
+    ],
+    "crop_box": [
+      0,
+      360,
+      3840,
+      2520
+    ],
+    "equivalent_source_crop": [
+      0,
+      56,
+      512,
+      392
+    ],
+    "minimum_white_text_contrast": 10.446207100807506,
+    "sha256": "69a76f5b38a16233fba16460afffdb004abacb5b8e42bce537494050d1ec7a15"
+  },
+  {
+    "path": "wallpapers/acz-title-red-clouds-3840x2160-unfiltered.png",
+    "source": "1238_000869e0",
+    "description": "Title-screen red clouds underlay (not the selection-menu scene)",
+    "source_entry": 1238,
+    "source_relative_offset": 551392,
+    "source_pac_offset": 996809184,
+    "source_tm2_sha256": "7a25e58fbbd920a45ec3d08524453b8d80628b734d59fa3a66b9908d9cd46156",
+    "native_size": [
+      512,
+      448
+    ],
+    "size": [
+      3840,
+      2160
+    ],
+    "mode": "RGB",
+    "prefilter_radius": 0.0,
+    "resize_before_crop": [
+      3840,
+      2880
+    ],
+    "crop_box": [
+      0,
+      360,
+      3840,
+      2520
+    ],
+    "equivalent_source_crop": [
+      0,
+      56,
+      512,
+      392
+    ],
+    "minimum_white_text_contrast": 10.061600711418548,
+    "sha256": "67bced2712e71cfc87d93827ed6fc0ab45048c02d24d4c308bd2a2cf507bcd4e"
+  }
+]

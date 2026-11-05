@@ -1,0 +1,18 @@
+{
+  "original_inputs_unchanged": true,
+  "original_sha256": {
+    "ACZ PAC extractor.py": "4c47f5e3f31cf22dbf35ffe218bdd6a267618e621ef8b6ce9804c15200f48ceb",
+    "DATA.TBL": "0c16f6412bb2631cb468f83b0a7caa204937d6f8d6d1c66c6979dad128b48cbe",
+    "DATA.PAC": "abd485a6cf46c714a74da7c7b0063340b965731b9ff158d9d56c31c0a1c25db7"
+  },
+  "extracted_dat_files_verified": 25,
+  "dat_bytes_verified": 54759424,
+  "original_tm2_slices_verified": 1000,
+  "decoded_pngs_verified": 2997,
+  "wallpapers_verified": 7,
+  "wallpaper_dimensions": [
+    3840,
+    2160
+  ],
+  "reference_screenshot_unchanged": true
+}

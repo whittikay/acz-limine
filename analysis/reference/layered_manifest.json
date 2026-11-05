@@ -1,0 +1,62 @@
+{
+  "kind": "Approximate static reconstruction from original extracted layers",
+  "native_artwork": "artwork/reconstructed/acz-main-menu-layered-reference-fit-512x448.png",
+  "native_sha256": "667e829d3726c9db912aade7447348050510882c1385165e19b7811be9e8149c",
+  "reference": "example from pcsx2/Screenshot from 2026-11-04 21-24-20.png",
+  "reference_sha256": "39b48ff0ba245be48c22ffe10684051b9e9d573fed635df3cb378da495a4a5bb",
+  "sources_sha256": {
+    "assets/tim2/1239_00163d60.png": "209549979030a68aa3e54cac524dbff497e04ee56d22161e6c2c2af1ef17aa6f",
+    "assets/tim2/1239_000f2940.png": "b3e6cf2586d69016eeebc890f990dc05b117e66f2693cb6605e0b957783fe720",
+    "assets/tim2/1239_0012ada0.png": "87e749fe446ee2fb2f55b42075a8f3dde4831a223444fb86dd1756cfa28d335f"
+  },
+  "fit_parameters": "analysis/reference/fit.json",
+  "gains": [
+    0.989859586392704,
+    0.0737013151990527,
+    0.7427142843549012
+  ],
+  "metrics": {
+    "base_only_best_gain_mae": 3.441074461801019,
+    "base_plus_blue_mae": 0.5967137544335895,
+    "base_plus_blue_median_error": 0.4954200172888683,
+    "particle_patch_mae": 2.1001371740569854,
+    "units": "8-bit RGB levels, registered native-resolution comparison"
+  },
+  "wallpapers": [
+    {
+      "path": "wallpapers/acz-main-menu-layered-3840x2160.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB",
+      "framing": "4:3 interpretation, resize 3840x2880, crop y=360..2519",
+      "minimum_white_text_contrast": 3.7949299151290465,
+      "sha256": "3739a1d02fcd1e96f9705956ecfdb3046863ddcb62569f91fd1f48faa416928d"
+    },
+    {
+      "path": "wallpapers/acz-main-menu-layered-3840x2160-full-field.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB",
+      "framing": "Entire native texture field stretched anamorphically to 16:9; no crop",
+      "minimum_white_text_contrast": 3.7949299151290465,
+      "sha256": "a331816ad2290ea78a1edad120f6b0b9ecaaea9aa3e4c4186ed494eedfd0470e"
+    },
+    {
+      "path": "wallpapers/acz-main-menu-layered-3840x2160-limine.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "mode": "RGB",
+      "framing": "Same framing as cropped version; RGB multiplied by 0.90 for minimum white-text contrast above 4.5:1",
+      "minimum_white_text_contrast": 4.546677185010446,
+      "sha256": "0bdb0b542c1fdce1481eb20c0f667a9de2f51e590e29153b2afc73908a6242d8"
+    }
+  ],
+  "screenshot_pixels_in_artwork": false,
+  "caveat": "Effective RGB blend gains/registration estimated from one screenshot; not decoded GS alpha, exact blend equation, or animation timing. Base/blue and particles are registered separately. Both effect textures have constant raw GS alpha 128; there is no embedded per-pixel opacity mask in them."
+}
