@@ -3,6 +3,9 @@
 # Preserve the community script's original CRLF bytes and recorded SHA-256.
 "ACZ PAC extractor.py" -text -whitespace
 
+# Archive the supplied boot configuration verbatim, including whitespace.
+limine/limine.conf -text -whitespace
+
 *.png binary
 *.jpg binary
 *.tm2 binary

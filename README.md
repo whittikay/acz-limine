@@ -25,9 +25,16 @@ See **[REPORT.md](REPORT.md)** for resource offsets, format findings, limitation
 - `previews/`: contact sheets, layer comparisons, and wallpaper previews.
 - `example from pcsx2/`: the supplied reference screenshot, unchanged.
 - `analysis/`: inventories, source hashes, fitted parameters, mappings, and verification records.
-- `wallpapers/`: finished PNGs. No live bootloader configuration or signing material.
+- `wallpapers/`: finished PNGs.
+- `limine/limine.conf`: verbatim snapshot of the owner's working Limine configuration. No signing material.
 
 **Not included:** `DATA.PAC`, `DATA.TBL`, disc images, bulk DAT extraction, Python caches, credentials, or local environment files. The original archives remain untouched on the local machine.
+
+## Limine configuration snapshot
+
+[`limine/limine.conf`](limine/limine.conf) is the owner's supplied copy of `/boot/limine.conf`, preserved byte-for-byte. It includes the matching theme colors, 3840×2160 interface setting, boot entries, and generated snapshot entries. The wallpaper digest recorded in the config matches `wallpapers/acz-main-menu-layered-3840x2160-limine.png`; the configured boot filename is `acz-limine.png`.
+
+This is a **machine-specific backup**, not a portable installation template: partition/machine IDs, kernel/initramfs hashes, and snapshot paths are intentionally retained. No passwords or private keys were found in the supplied config. The live configuration and Secure Boot enrollment/signing setup were not modified. Do not blindly restore this snapshot over a newer or different machine's configuration; Git does not preserve its original file ownership or restricted permissions.
 
 ## Run the tests
 
